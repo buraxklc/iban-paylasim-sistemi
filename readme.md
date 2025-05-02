@@ -1,12 +1,43 @@
-Merhaba dosyayları servere atarsanız kurulum yapar. 
-iban_db.sql dosyasını phpmyadmine içeaktar derseniz veritabanları içe aktarılır.
+# 💳 IBAN Yönetim Sistemi
 
-Gelişime devam edecektir
+Basit, modern ve kullanıcı dostu bir IBAN yönetim sistemi. Admin paneli ile IBAN ekleme, düzenleme ve görüntüleme; kullanıcı tarafında ise hızlı ve kolay erişim deneyimi sunar.
 
-SATIŞI KESİNLİKLE YASAKTIR. SATMAK İSTİYORSANIZ PM ATINIZ.
+---
 
-r10 buraxklc :) 
+## ✨ Özellikler
 
-db/config.php dosyasında sunucu ayarlarını değiştirin
+### 👑 Admin Paneli
+- IBAN ekleme  
+- IBAN'ları düzenleme ve silme  
+- IBAN görüntüleme istatistikleri  
+- IBAN’ları aktif/pasif duruma getirme  
 
-![7](https://github.com/user-attachments/assets/5eebde7b-808f-4eb7-ad6b-09d42b6b7728)
+### 🙋 Kullanıcı Paneli
+- IBAN görüntüleme ekranı  
+- Gece/Gündüz modu  
+- IBAN QR kodu ile ödeme yapma  
+- Banka logoları (2 farklı banka desteği)  
+- Kopyala butonu ve "Başarıyla kopyalandı" bildirimi  
+- Modern ve sade tema  
+
+---
+
+## 🧩 Kurulum
+
+### 1. Veritabanı Yükleme
+
+`iban_db.sql` dosyasını **phpMyAdmin** üzerinden içe aktararak veritabanını oluşturabilirsiniz.
+
+### 2. Veritabanı Bağlantısı
+
+`db/config.php` dosyasını açın ve aşağıdaki bilgileri kendi sunucunuza göre güncelleyin:
+
+```php
+$servername = "localhost";
+$username = "kullanici_adi";
+$password = "parola";
+$dbname = "veritabani_adi";
+
+
+screenshot/1.png
+screenshot/2.png
