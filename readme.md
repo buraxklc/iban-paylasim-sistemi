@@ -32,12 +32,8 @@ Basit, modern ve kullanıcı dostu bir IBAN yönetim sistemi. Admin paneli ile I
 
 `db/config.php` dosyasını açın ve aşağıdaki bilgileri kendi sunucunuza göre güncelleyin:
 
-```php
-$servername = "localhost";
-$username = "kullanici_adi";
-$password = "parola";
-$dbname = "veritabani_adi";
-
-
 screenshot/1.png
 screenshot/2.png
+
+
+
